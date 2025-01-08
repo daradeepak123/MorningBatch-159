@@ -1,0 +1,210 @@
+
+
+Agenda     
+	1. Switch case
+		
+	int week=1;
+
+	switch(week){
+
+	case 1:{
+		syso(monday);
+		break;
+	}
+	case 2:{
+		syso(tuesday);
+	}
+	case 3:{
+		syso(wed);
+		break;
+	}
+	case 4:{
+		syso(thu);
+		break;
+	}
+	case 5:{
+		syso(fri);
+		break;
+	}
+	case 6:{
+		syso(sat);
+		break;
+	}
+	case 7:{
+		syso(sun);
+		break;
+	}
+	default:
+	{syso(give range from 1 - 7 only);}
+
+	}	
+
+
+
+	2. Loops
+
+
+
+		executing the same program n number of times based on requirement
+
+
+		1. simple for loop
+		2. for each loop
+		3. while loop
+		4. do while loop
+
+
+		simple for loop
+		
+		for(initialize; condition; increment/decrement)
+		{
+			piece of code to be executed;
+		}
+
+		for(int i=1; i<=10; i++)      //false     11
+		{
+			open box i and get paper
+		}
+
+		
+
+
+I wanted to print 1- 100 numbers in console
+
+
+
+
+
+
+
+
+i wanted to listen 1 song for 50 times
+
+count 1  listen song
+count 2  listen song
+
+
+
+count 50 listen song
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Assignment
+	1. Print weeks using switch cases
+	2. prepare travel guide using switch case
+		
+
+String city="hyderabad";
+
+
+switch(city){
+
+case Hyderabad:
+{
+syso(charminar);
+syso(rFilim);
+syso(some places);
+break;
+}
+
+case Delhi:
+{
+syso(delhi places);
+break;
+}
+
+
+
+}
+
+
+
+
+I wanted to print how many even numbers and odd numbers are there from 1-1000
+
+i wanted to print which number is even and odd from 1-1000
+
+
+
+tables
+
+1*1=1
+
+5*1=5
+
+
+1*2=2
+
+
+
+
+
+I wanted to know given number is prime number or not
+
+
+
+
+
+
+7%2==0;  
+7%3==0;  
+7%4==0;  
+7%5==0;  
+7%6==0;
+int num=7;
+Boolean status=true;
+
+for(int i=2;i<num;i++)
+{
+if(num%i==0)
+{
+status=false;
+}
+}
+
+if(status)
+{
+syso(given number is prime);
+}
+else
+{
+syso(given number is not a prime)
+}
+
+
+
+
+
+2. Debug the program
+
+
+
+
+
+
+

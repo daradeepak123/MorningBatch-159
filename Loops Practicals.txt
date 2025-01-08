@@ -1,0 +1,130 @@
+
+
+Agenda
+	1. break
+	2. continue
+	3. infinity loop
+	4. while loop
+	5. do while loop
+	6. nested loop
+	7. arrays (Theory) 
+
+
+
+
+for(int i=1;i<10;i--)
+{
+syso(i);
+}
+
+
+while loop
+
+
+while(condition)
+{
+
+}
+
+
+int i=0;
+
+while(i<=10)
+{
+
+syso(i);
+i++;
+}
+
+
+do{
+
+}while(condition);
+
+
+
+Nested Loop
+
+	loop inside a loop
+
+int count=0;
+for(int i=1;i<=100;i++)
+{
+count++;
+
+}
+syso(count);
+
+
+
+
+*
+* *
+* * *
+* * * *
+* * * * *
+
+
+syso(*);
+syso(* *);
+syso(* * *);
+
+
+1. arrays 
+
+
+int a=10, b=40, c=40, d=11;
+
+arrays
+
+1. Arrays can store multiple set of data at a time.
+2. Arrays are size specific 
+3. Arrays can be sent as parameter in the method
+4. you can return an array
+5. you can store any data type
+6. memory allocation
+7. arrays practice indexes 
+8. arrays data can be duplicated
+9. arrays data can have default values if not set
+
+8. syntax of arrays
+
+datatype varName[]=new datatype(sizeOfArray);
+
+int a[]=new int[10];
+
+
+
+Assignment:
+
+1. practice all example we discussed for for loops with while and do while.
+2. Print at least 5 star patterns.
+3. Declare arrays.
+	add data to arrays
+	retrieve data from arrays
+	make use of loops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

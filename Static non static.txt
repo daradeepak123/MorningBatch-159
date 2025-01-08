@@ -1,0 +1,33 @@
+
+
+
+
+Agenda
+	1. Datatypes variables practical
+	2. types of variables
+		a. local
+		b. global
+		c. instance
+	3. static non static  
+
+
+
+
+Assignment:
+	1. Create 3 projects
+	2. in each project create 3 packages
+	3. in each package create 3 classes and write main method 	
+	4. create a class
+		i need 8 methods to be created 
+		call all the methods to main method and execute
+
+
+
+
+
+
+
+
+
+
+	

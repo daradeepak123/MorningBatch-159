@@ -1,0 +1,392 @@
+
+
+Agenda
+	1. Scanner class
+
+
+
+	
+	2. Conditions
+		a. simple if
+		b. else if
+		c. ladder if
+		d. nested if
+		e. Switch cases
+
+
+
+father said get more than 500 and get bicycle
+
+
+Find out if student is passed in all subjects and final total is greater than pass mark
+
+
+
+int math
+
+int soc
+
+int eng 
+
+
+Boolean status=true;
+
+if(math<35)
+{
+status=false;
+syso("you have failed in math");
+}
+else
+{
+syso("you are passed in math and you got:"+math)
+}
+
+if(soc<35)
+{
+status=false;
+syso("you have failed in math");
+}
+else
+{
+syso("you are passed in soc and you got:"+math)
+}
+
+
+
+
+
+1. Design a logic to create electricity billing
+	generate a bill and show how namy rupees customer need to pay
+
+if rural
+
+	home
+
+	1. unit cost for less than 100 units is 2rs
+	2. unit cost for greater than 100 and less than 250 units 4
+	3. unit cost for greater than 250 and less than 500 units 6
+	4. unit cost for greater than 500 and less than 750 units 10
+	5. unit cost for greater than 750  15
+	
+	commercial
+	
+	1. unit cost for less than 100 units is 3rs
+	2. unit cost for greater than 100 and less than 250 units 5
+	3. unit cost for greater than 250 and less than 500 units 7
+	4. unit cost for greater than 500 and less than 750 units 11
+	5. unit cost for greater than 750  16
+	indus
+	1. unit cost for less than 100 units is 5rs
+	2. unit cost for greater than 100 and less than 250 units 10
+	3. unit cost for greater than 250 and less than 500 units 15
+	4. unit cost for greater than 500 and less than 750 units 20
+	5. unit cost for greater than 750  25
+
+if town
+
+	home
+
+	1. unit cost for less than 100 units is 2rs
+	2. unit cost for greater than 100 and less than 250 units 4
+	3. unit cost for greater than 250 and less than 500 units 6
+	4. unit cost for greater than 500 and less than 750 units 10
+	5. unit cost for greater than 750  15
+	
+	commercial
+	
+	1. unit cost for less than 100 units is 3rs
+	2. unit cost for greater than 100 and less than 250 units 5
+	3. unit cost for greater than 250 and less than 500 units 7
+	4. unit cost for greater than 500 and less than 750 units 11
+	5. unit cost for greater than 750  16
+	indus
+	1. unit cost for less than 100 units is 5rs
+	2. unit cost for greater than 100 and less than 250 units 10
+	3. unit cost for greater than 250 and less than 500 units 15
+	4. unit cost for greater than 500 and less than 750 units 20
+	5. unit cost for greater than 750  25
+	
+	
+	
+
+bike
+
+
+dec 1 20000
+
+
+jan 1st 20000
+
+
+
+33000-20000
+13000
+
+
+scanner class for taking lastmonth reading and current month
+
+units consumed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package conditionsLearn;
+
+import java.util.Scanner;
+
+public class FindPassFailForAll {
+
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter math marks ");
+		int math=sc.nextInt();
+		
+
+		System.out.println("Enter soc marks ");
+		int soc=sc.nextInt();
+		
+
+		System.out.println("Enter phy marks ");
+		int phy=sc.nextInt();
+		
+		boolean status=true;
+		
+		if(math<35)
+		{
+			status=false;
+			System.out.println("You are failed in math and your score is: "+math);
+		}
+		
+		else
+		{
+			System.out.println("you are passed in math and your score in math is: "+math);
+		}
+		
+		if(soc<35)
+		{
+			status=false;
+			System.out.println("You are failed in soc and your score is: "+soc);
+		}
+		
+		else
+		{
+			System.out.println("you are passed in soc and your score in math is: "+soc);
+		}
+		
+		if(phy<35)
+		{
+			status=false;
+			System.out.println("You are failed in phy and your score is: "+phy);
+		}
+		
+		else
+		{
+			System.out.println("you are passed in phy and your score in math is: "+phy);
+		}
+		
+		
+		int totalMarks=math+phy+soc;
+		if(totalMarks<105)
+		{
+			status=false;
+			System.out.println("considering your overall score you are failed and score is: "+totalMarks);
+		}
+		else
+		{
+			System.out.println("you got total socre is: "+totalMarks);
+		}
+		
+		if(status)
+		{
+			System.out.println("Passed in all subjects");
+		}
+		else
+		{
+			System.out.println("failed in any one of subject/all subjects");
+		}
+		
+	}
+
+}
+
+
+I wanted to print day in the console
+
+
+int week=9;
+
+if(week==1)
+{
+syso(Monday);
+}
+else if(week==2)
+{
+syso(Tuesday);
+}
+else if(week==3)
+{
+syso(wed);
+}
+
+else if(week==4)
+{
+syso(thurs);
+}
+else if(week==5)
+{
+syso(Fri);
+}
+else if(week==6)
+{
+syso(Sat);
+}
+else if(week==7)
+{
+syso(Sunday);
+}
+else
+{
+syso(please enter numbers between 1-7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+package conditionsLearn;
+
+import java.util.Scanner;
+
+public class ElectricityBilling {
+	
+	
+	
+	public static void generateEleBilling(int lMonth,int cMonth,String name,String area)
+	{
+		
+		int units=cMonth-lMonth; 
+		int amount=0;
+		
+		
+		if(area.equalsIgnoreCase("rural")) {
+		if(units<100)
+		{
+			amount=units*2;
+		}
+		else if(units>=100 & units<250)
+		{
+			amount=units*4;
+		}
+		else if(units>=250 & units<500)
+		{
+			amount=units*6;
+		}
+		else if(units>=500 & units<750)
+		{
+			amount=units*10;
+		}
+		else if(units>=750 )
+		{
+			amount=units*15;
+		}
+		}
+		else if(area.equalsIgnoreCase("town"))
+		{
+			if(units<100)
+			{
+				amount=units*3;
+			}
+			else if(units>=100 & units<250)
+			{
+				amount=units*5;
+			}
+			else if(units>=250 & units<500)
+			{
+				amount=units*7;
+			}
+			else if(units>=500 & units<750)
+			{
+				amount=units*11;
+			}
+			else if(units>=750 )
+			{
+				amount=units*16;
+			}
+		}
+		
+		System.out.println("hello "+name+", you need to pay: "+amount+150);
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter your name");
+		String name=sc.next();
+		System.out.println("enter your lastmonth reading");
+		int lMonth=sc.nextInt();
+		System.out.println("enter your current month reading");
+		int cMonth=sc.nextInt();
+		System.out.println("enter type of area rural/town/city");
+		String area=sc.next();
+		
+		generateEleBilling(lMonth,cMonth,name,area);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

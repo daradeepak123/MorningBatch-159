@@ -1,0 +1,167 @@
+Agenda
+	1. Abstract class
+	2. Interface 
+	3. Abstract method
+	4. Encapsulation
+	5. Collections
+
+
+
+1. Abstract cannot be final
+2. abstract cannot have object 
+
+
+
+
+
+home page
+	1. file upload fun
+		plain
+	2. it have download a file option
+
+contact us 
+	1. file upload fun
+		check the check box and upload
+	2. no option to dw the file
+career page
+	1. file upload fun 
+		provide your name and upload file
+	2. 2 check boxes to be checked and download file
+
+
+public abstract class fileDealing{
+
+public abstract void uploadFile();
+public abstract void downLoadFile();
+
+public void readFileName()
+{
+syso("c:\fileName");
+}
+
+}
+
+public class HomePage extends fileDealing{
+
+public  void uploadFile()
+{
+syso(check box);
+syso(upload a file);
+}
+public  void downLoadFile()
+{
+download file
+}
+
+}
+
+public class ContactUS extends fileDealing{
+
+public  void uploadFile()
+{
+syso(upload a file);
+}
+public  void downLoadFile()
+{
+}
+
+}
+
+public class careers extends fileDealing{
+
+public  void uploadFile()
+{
+syso(enter your name);
+syso(upload a file);
+}
+public  void downLoadFile()
+{
+syso(check check box for tetms and conditions);
+syso(any reasong)
+download the file
+
+}
+
+}
+
+
+
+
+
+
+
+public interface Caar
+{
+
+public void wheels();
+public void doors();
+public void seatingCapacity();
+public void engineCapacity();
+
+
+
+}
+ 
+
+
+
+
+public interface Car extends Caar{
+
+public void price();
+
+
+}
+
+
+
+
+
+public class Maruthi implements Car
+{
+
+public void wheels()
+{
+weak weels
+}
+public void doors()
+{
+weak doors
+}
+public void seatingCapacity()
+{
+5 seating capacity
+}
+public void engineCapacity()
+{
+low
+}
+
+public void price()
+{
+10l
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

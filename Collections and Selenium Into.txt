@@ -1,0 +1,82 @@
+
+
+Agenda
+	1. Collections
+	2. Selenium Intro
+	3. read data from property files
+
+
+int a[]=new int[100];
+
+List<INteger> lst=new ArrayList<Integer>();
+
+
+
+Selenium setUp 
+
+
+Selenium  
+
+4 components in it
+
+
+a. Selenium IDE
+b. Selenium RC
+c. Selenium WebDriver
+d. Selenium Grid
+
+
+WebDriver is a interface
+
+
+close()
+quit()
+windowHandle()
+windowHandles()
+findelement()
+findelements()
+switchTo()
+manage()
+navigateTo()
+get()
+getCurrentURL()
+gettitle()
+getPageSource()
+
+
+
+ChromeDriver
+
+FireFoxDriver
+
+IEDriver
+
+
+EdgeDriver
+
+OperaDriver
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

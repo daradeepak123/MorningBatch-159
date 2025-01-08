@@ -1,0 +1,42 @@
+
+
+Agenda
+	1. TestNG patterns
+		pattern of annotations
+		DataProvider annotation
+		DataProvider annotation with excel file
+		bulk execution
+	2. Keywords
+		Generic methods
+
+
+
+
+
+@BeforeSuite
+
+@BeforeTest
+
+@BeforeClass
+
+@BeforeMethod
+
+@Test
+
+@Test
+
+@Test
+
+@AfterMethod
+
+@AfterClass
+
+@AfterTest
+
+@AfterSuite
+
+
+
+
+
+

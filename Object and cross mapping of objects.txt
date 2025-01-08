@@ -1,0 +1,90 @@
+
+
+
+Agenda
+	1. Cross mapping Object
+	2. method with parameter
+	3. method with return type
+	4. access modifiers 
+	5. employee class
+
+
+
+Mixer grinder ()
+{
+
+engine and blades
+
+}
+
+
+it blends 
+
+
+
+public static void add(int x,int y)
+{
+
+int a=x,b=y;
+
+syso(a+b);
+
+}
+0+0
+500+500
+1+1
+
+p s v m(S a[])
+{
+add(0,0);
+add(500,500);
+add(1,1)
+add(20,20);
+}
+
+
+return type
+
+
+public void hello()
+{
+
+
+}
+
+
+public drink hello()
+{
+
+
+return drink
+}
+
+
+public void number()
+{
+int a=100,b=500;
+return
+
+
+}
+
+
+p s v m()
+{
+int abc=number();
+syso(abc);
+
+}
+
+
+
+Assignment
+	1. Create a calculator 	
+		in that class should have local variables
+					  global variables
+					  instance variables need to be accessed
+	2. create 3 classes and create objects for all the classes and access the methods and variables in another classes
+
+
+	

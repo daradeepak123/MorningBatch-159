@@ -1,0 +1,158 @@
+
+
+
+Agenda
+	1. Constructors 
+	2. Employee class
+
+
+Constructors
+
+1. constructor looks like a method but it is not a method.
+2. constructor name and class name should be same.
+3. constructor cannot have return type.
+4. constructor can be invoked cannot be called.
+5. constructor cannot be static.
+6. constructor can be parameter.
+7. multiple constructors can be created.
+8. default constructor 
+
+
+
+public class ConstructorClass{
+
+int abc;
+
+Boolean bool;
+
+
+ConstructorClass()
+{
+abc=500;
+}
+
+
+p s v hello()
+{
+syso("this is method");
+}
+
+p s v m(S a[])
+{
+
+ConstructorClass obj=new ConstructorClass();    //500
+syso(obj.abc);
+
+ConstructorClass obj1=new ConstructorClass();   // 500
+syso(obj1.abc);
+
+ConstructorClass obj2=new ConstructorClass();   // 2000
+syso(obj2.abc);
+
+obj2.abc=2000;
+syso(obj2.abc);
+syso(obj2.bool);
+
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+class ABC
+{
+
+p s v m(S a[])
+{
+
+ABC obj=new ABC();
+
+
+}
+
+
+
+}
+
+
+
+1. QUalityThought gave me below task
+		a. collect all the employee details
+		b. display all the employee details
+
+
+
+int id;
+String empName;
+int age;
+int sal;
+String dept;
+String pnNo;
+String address;
+char gender;
+String company; 
+String trainingInstute;
+
+
+
+
+
+Assignment
+1. Create employee class 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

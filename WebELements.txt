@@ -1,0 +1,38 @@
+
+
+
+Agenda
+	1. WebElement
+		1. checkbox
+
+WebElement chkB1=d.fE(By.xpath("//dnf"));
+
+if(!chkB1.isSelected())
+{
+chkB1.click();
+}
+
+
+		2. Web Table
+
+based on howmany rows howmany columns 
+	iterate with for nested loop
+		print all the data in the console 
+
+		3. dateTIme picker
+		4. DropDown
+			a. select by visible text
+			b. 		index
+			c. 		value
+		5. functional flow / a testcase
+	2. WebElements
+		1. multiple webElements at a time
+
+
+findelement()  returns  WebElement
+findelements() returns  List<WebElements>  
+
+
+
+
+d.fE(By.xpath("asdkj")).click();

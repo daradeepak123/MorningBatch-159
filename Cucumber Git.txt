@@ -1,0 +1,124 @@
+
+
+Agenda
+	1. Cucumber
+	2. SI Git
+	3. Jenkins
+
+
+
+
+
+Background: login into application
+	Given Open desired Browser and load URL
+	When Login into application with valid creds
+Scenario: Validate dashboard page
+	Given User clicks on dashboard tab
+	then User validated dashboard text in heading
+	When User gets text from hyperlinks
+	Then User validates all the hyperlinks
+	And User quits browser
+
+
+Scenario: Validate admin page
+
+
+Scenario: validate leave page
+
+
+
+
+
+Scenario outline: hello scenario
+
+	Given general
+
+
+
+
+
+
+Versions management is tough manually
+
+
+
+phone calling
+
+video calling
+
+status
+
+emoji
+
+
+Base code setUp
+
+
+
+Deepak   calling    10 hrs   local system
+
+ 
+Ram      receiving  10 hrs   local system
+
+
+code merge    10   10  
+
+
+
+Ravi   video call
+
+
+Akhil  receive video calls
+
+Pavan   status
+
+
+
+10 
+
+
+Than it is whats app application
+
+
+
+
+
+
+
+GIt
+
+
+GitHub
+
+BitBucket
+
+
+Tortoise SVC
+
+
+CodeHub
+
+
+
+
+Install git
+
+registering 
+
+
+part done
+
+
+
+repository 
+	local repository
+	remote repository
+
+
+skjffc
+
+
+
+
+
+

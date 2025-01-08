@@ -1,0 +1,52 @@
+
+Agenda
+	1. Recap last day
+	2. Action class
+	3. Timeout/selenium waits
+	4. Alerts
+	5. WindowHandle
+	6. WindowHandles
+	7. Screenshot
+
+
+Actions class
+
+
+
+THree types of waits
+
+	1. implicitly wait time i have given (20)
+	2. explicitly wait
+	3. fluent wait
+
+20 sec
+
+ele1  .01 s   9.99
+10
+ele2  3s    7
+10
+ele3  not true   10 
+fail here saying no suchelement
+elen
+
+explicitly wait
+
+
+fluent wait please take it as self learning
+
+
+
+Alert
+	a. accept
+	b. dismiss
+	c. senddata to alert and accept
+
+
+
+
+
+
+
+
+
+

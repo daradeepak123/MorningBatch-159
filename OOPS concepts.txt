@@ -1,0 +1,280 @@
+
+
+Agenda
+	1. Inheritance 
+	2. polymorphism
+	3. abstraction 
+
+
+
+Access modifiers
+
+public every where
+default means with in the package
+
+protected 
+
+self class
+child class
+
+outside package
+	child class
+
+private  just in self class
+
+
+
+poly + morphism
+
+multiple forms for methods and constructors
+
+overloading
+
+overriding
+
+
+public class ABC{
+
+public void hello()
+{
+syso(this is hello 1);
+}
+
+public void hello(String str)
+{
+syso(this is hello2)
+}
+
+public void add(int a,int b)
+{
+syso(a+b);
+}
+
+public void add(int a,int b,int c)
+{
+syso(a+b+c);
+}
+
+SYSO(1);
+syso('c');
+
+
+}
+
+
+
+Overriding 
+
+public class A{
+public void hello()
+{
+syso(logic a);
+
+}
+
+}
+public class B extends A{
+public void hello()
+{
+syso(logic b);
+
+}
+}
+
+
+
+abstraction
+
+
+public static void abc()
+{
+
+}
+
+public void hello()
+{
+
+}
+
+abstract method
+ public abstract void greeting();
+
+
+abstract class
+
+public abstract class Country{
+ 
+	public abstract void greeting();
+	public abstract void currency();
+	public abstract void eatingHabits();
+	public abstract void sightseeing();
+
+	public void hello(){
+		logic
+	}
+
+}
+
+public class India extends Country{
+	public  void greeting()
+	{
+		Namaste	
+	}
+	public void currency()
+	{
+		INR
+	}
+	public void eatingHabits()
+	{
+		preferably veg and non veg also 
+	}
+	public void sightseeing()
+	{
+		Taj mahal 
+	}
+
+
+}
+
+public class America extends Country{
+	public  void greeting()
+	{
+		hello	
+	}
+	public void currency()
+	{
+		USD
+	}
+	public void eatingHabits()
+	{
+		preferably non veg and veg also 
+	}
+	public void sightseeing()
+	{
+		nigari fall
+	}
+
+
+}
+
+
+
+interface
+
+
+
+
+
+
+
+
+
+
+
+
+Car
+
+
+4 weels()
+4 doors()
+wind shield()
+rear shield()
+4 windows()
+5/7 seating capacity()
+steering()
+
+public void seatbelt()
+{
+standards
+}
+
+maruthi implements car
+
+4 weels()
+{
+weak weels
+}
+4 doors()
+{
+weak
+}
+wind shield()
+{
+thin
+}
+rear shield()
+{
+
+}
+4 windows()
+5/7 seating capacity()
+steering()
+
+
+
+benz implements car
+
+4 weels()
+4 doors()
+wind shield()
+rear shield()
+4 windows()
+5/7 seating capacity()
+steering()
+
+
+
+audi implements car
+
+4 weels()
+4 doors()
+wind shield()
+rear shield()
+4 windows()
+5/7 seating capacity()
+steering()
+
+ford implements car
+
+4 weels()
+4 doors()
+wind shield()
+rear shield()
+4 windows()
+5/7 seating capacity()
+steering()
+
+
+class A
+{
+}
+
+class B extends A{
+
+A o=new B();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

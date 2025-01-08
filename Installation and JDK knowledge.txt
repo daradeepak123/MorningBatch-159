@@ -1,0 +1,38 @@
+
+
+
+Agenda
+	1. JDK Java development kit
+		
+	3. What is JDK? 
+
+
+		Java development kit
+
+Kit 
+
+tool kit?
+
+
+
+medicine kit?
+
+
+1. Eclipse
+2. IntelliJ
+3. VS Code
+4. Aqua
+5. SpringSuite
+
+
+
+
+
+
+
+
+
+
+
+
+

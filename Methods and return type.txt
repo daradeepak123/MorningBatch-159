@@ -1,0 +1,142 @@
+
+
+
+
+Agenda
+	1. Method with return type
+	2. access modifiers 
+	3. constructors
+	4. Employee class
+
+
+
+Method with Return type
+
+
+public class ABC{
+
+public static int add2Numbers(int a, int b)
+{
+return a+b;
+}
+
+public static boolean oddEven(int a)
+{
+Boolean b=false;
+if(a%2==0)
+{
+b=true;
+}
+return b;
+}
+
+
+p s v m(S a[])
+{
+int aa=add2Numbers(20,30);   // 50
+
+int xyz=add2Numbers(aa,50);  // 100
+
+syso(add2Numbers(aa,xyz));
+
+syso(oddEven(9));
+
+}
+
+}
+
+class ABC{
+
+public static int abc=500;
+
+public static void main(String args[])
+{
+
+
+}
+
+}
+
+Access modifiers 
+
+
+
+1. public
+2. default
+3. protected
+4. private
+
+final keyword
+
+
+2 year old baby   
+
+70 year old person    yes No
+
+a girl   yes no   yes
+
+a boy   yes yes yes
+ 
+
+constructor
+
+
+
+public class hello{
+
+
+
+public hello()
+{
+
+}
+
+
+public void add()
+{
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+syntax of method
+
+
+returnType methodName()
+{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

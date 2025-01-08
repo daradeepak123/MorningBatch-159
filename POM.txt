@@ -1,0 +1,78 @@
+
+
+Recap
+	1. Java
+		datatypes and variables
+		methods with (parameters return type) static non static
+		conditions
+		operators
+		loops
+		arrays
+		String
+		OOPS
+		Collections	
+
+	2. Selenium
+		Basics of selenium
+		Locators
+		webdriver
+		webelement
+		webelements
+		actions class
+		
+	3. data driven framework
+		reading data from excel file
+		reading data from property file
+
+	4. keyword driven framework
+		generic methods
+		keywords
+	5. Hybrid framework
+		combination of 2 FWs
+	6. testNG FW
+		annotations
+		sequence 
+		data provider
+		listeners
+		bulk execution in suite level
+		combination of datadriven keyword and test NG
+Up coming
+	7. POM
+	8. Logs
+	9. reports
+	10 Cucumber
+	11 GitHub
+	12 Jenkins
+
+
+
+
+@BeforeSuite
+
+@BeforeTest
+
+@BeforeClass
+
+@BeforeMethod
+
+@Test
+
+@AfterMethod
+
+@AfterClass
+
+@AfterTest
+
+@AfterSuite
+
+
+
+
+
+
+
+
+
+Agenda
+	1. Page object model
+	

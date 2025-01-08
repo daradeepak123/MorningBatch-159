@@ -1,0 +1,160 @@
+
+Recap
+	theory of Java
+	JDK
+	what happens from the background when program runs
+	installations 
+	first program in java
+	what is class, package 
+	how to create project , package class method
+	
+
+
+
+Agenda
+	1. Naming conventions
+	2. Methods
+	3. Variables
+	4. Data types 
+
+
+
+www.amazon.com
+
+
+com.amazon
+
+com.amazon.home
+	Title
+		methods and variables 
+	Products 
+	Search
+
+
+methods should always have small letter in the start
+	public void purchase (){
+}
+
+
+public void purchaseBooks()
+{
+
+}
+
+
+
+method is a piece of code or block of code 
+	re-usability of the code at n number of places
+
+
+class method
+
+
+
+what is main method
+	
+	public static void main(String args[])
+	{
+	system.out.println("hello");
+	} 
+
+
+variable means nothing but a container 
+
+Vari + ables 
+
+
+water glass  = water 200ml
+		100ml consumed
+		100ml remaining 
+		50ml +100=150ml
+
+
+
+java variables 
+	will store data 
+	3 types of variables 
+		1. global variable
+		2. local variable
+		3. instance variable
+
+
+1 yes 
+2 no
+
+public class VariablesLearn{
+
+static int abc=1000; // global variable
+
+public static void hello()
+{
+int a=100;   //local variable
+
+
+}
+
+public static void hi()
+{
+int b=500;   // local variable
+
+
+
+
+}
+
+
+}
+
+
+water bottle =  1ltr 
+		
+
+petrol bottle1= 1 ltr
+
+
+
+Java Data types
+	1. primitive datatype
+		a. byte numbers between -127 to 128   1 byte 
+				byte b=100;   
+				byte bb=0; 
+				
+		b. short numbers with range ~ -32000 to + 32000  2 bytes of memory
+				short s=10000;
+
+		c. int   (-2,147,483,648 to 2,147,483,647) 4 bytes
+				int abc=500;
+		d. long    8 byte of memory
+				long lng=1000030l;
+			
+		e. float     3.3333333333333333333333
+				float fl=3.33f;
+		f. double
+				double d=4.24;
+		g. Boolean
+				Boolean b=true/false;
+		h. char
+				char ch='a';
+	2. non primitive data type
+		a. class
+		b. object
+		c. String str="any thing 1 @ f ashjbgr ad231 SADS";
+		d. arrays
+
+
+
+
+fuel bottle 
+
+	
+byte: 8-bit signed integer (-128 to 127)
+short: 16-bit signed integer (-32,768 to 32,767)
+int: 32-bit signed integer (-2,147,483,648 to 2,147,483,647)
+long: 64-bit signed integer (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807)
+float: 32-bit floating-point number (approximately 1.4E-45 to 3.4E+38)
+double: 64-bit floating-point number (approximately 4.9E-324 to 1.8E+308)
+
+
+
+
+

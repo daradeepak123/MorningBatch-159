@@ -1,0 +1,103 @@
+
+
+
+Agenda
+	1. Data providers
+	2. Asserts
+		a. Hard Assert
+			if comparison didn't match stop the execution
+		b. Soft assert
+	3. Bulk execution
+
+
+<suit>
+	<test>
+		<classes>
+			<class name="packagename.classname">
+				<methods><methods>
+			</class>
+			<class name="packagename.classname">
+				<methods><methods>
+			</class>
+	
+		</classes>
+	</test>
+
+</suit>
+
+
+
+
+
+
+
+
+
+
+Validate calculator
+
+	1. Open calculator       calculator should be displayed
+	2. add 2 numbers 	 validate addition is correct  2+2 =4
+	3. sub 2 numbers 	 validate sub is correct	4-3= 3
+	4. mul 2 numbers 	 validate mul is correct
+	5. div 2 numbers 	 validate div is correct
+
+
+
+
+
+int a=100;
+
+a="Hello QT";
+
+Object o=10;
+
+o="Hello";
+
+
+@DataProvider(name="dp")
+public Object[][] dataProviderLearn()
+{
+
+
+return Object new {{hello, welcome},{hello1,welcome},{hello2,welcome2},{hello2,welcome2}};
+
+}
+
+@Test(dataprovider="dp")
+public void dpAppend(String s,String ss)
+{
+
+}
+
+
+
+Assignment
+	1. Create a test for login page
+		1. Valid username and password
+		2. invalid uname pw
+		3. valid uname invalid pw
+		4. Make use of generic methods
+	2. Put the data in excel file read the data
+		1. Append to Test method
+		1. Valid username and password
+		2. invalid uname pw
+		3. valid uname invalid pw
+		4. make use of generic methods
+
+
+
+
+
+
+return new Object[][] { { "Admin", "admin123" },
+			{ "aa","asd" },
+			{ "Admin","aaa"} 
+
+		      };
+
+
+
+
+
+

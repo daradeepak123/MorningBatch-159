@@ -1,0 +1,68 @@
+
+
+Interface to interface is extends
+
+class to class is extends
+
+interface to class is implements
+
+
+Agenda
+	1. Collections
+	2. Introduction to selenium
+
+
+
+1 45 1 1 312 4543
+
+int a[]=new int[3];
+
+
+collections came to picture
+
+
+String str="quality";
+
+syso(str.charAt(0));
+
+
+interface car{
+p a v hello();
+}
+
+class mar implements car{
+p v hello()
+{
+some logic
+}
+}
+
+class abc
+{
+car c=new mar();
+c.hello();
+}
+
+String s[]=new String[5];
+s[0]="hello";
+
+
+List<String> name=new ArrayList<String>();
+
+name.add("hello");
+
+https://www.javatpoint.com/collections-in-java
+
+
+
+Assignment
+	1. Create all the collections
+	2. Send collections as parameters
+	3. Send collections as return type and print the data
+
+
+
+
+
+
+

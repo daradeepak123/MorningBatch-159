@@ -1,0 +1,201 @@
+
+
+
+Agenda
+	1. Operators	
+	2. Conditions
+
+
+Conditions
+
+
+
+10th Standard boy 
+	get more than or equals to 500 marks i will get you a bicycle
+
+
+int marks=500;
+Boolean b=marks>500;
+if(b)
+{
+syso(you will get bicycle);
+}
+
+	1. simple if
+		if(true/false)
+		{
+			block of code
+		}
+
+
+	2. else if
+		get passed i will make you continue with education 
+		failed i will make you as labour 
+
+		if(marks>270)
+		{
+			continue further studies
+		}
+		else
+		{
+			will make you as labour
+		}
+	
+	3. ladder if
+
+		student is pass or fail
+		int mat=90;
+		int soc=70;
+		int eng=20;
+		Boolean status=true;
+		if(mat<35)
+		{
+			status=false;
+		}
+		else if(soc<35)
+		{
+			status=false;
+		}
+		else if(eng<35)
+		{
+			status=false;
+		}
+
+syso(status);
+
+	4. nested if
+	
+	5. switch cases
+
+
+
+
+
+
+
+
+Operators?
+
+1. arithmetic operator
+	+ - * / %
+
+10+20 =30
+10-100 =-90
+10*10=100
+10/10=1
+10%10=
+
+2. comparator operator or relational operator
+	< > <= >=  == !=    Boolean
+
+10<9  false
+
+10>9  true
+
+10<=11 true
+
+10<=10 true
+
+10>=11 false
+
+10==10 true
+
+10!=10 false
+
+
+int a=100;b=50;
+
+
+Boolean b=a<b;
+
+b=a>b;
+
+
+3. logical operator
+
+	& | !
+
+
+A	B	A&B	A|B	!A	!B
+TRUE	TRUE	TRUE	TRUE	FALSE	FALSE
+TRUE	FALSE	FALSE	TRUE	FALSE	TRUE
+FALSE	TRUE	FALSE	TRUE	TRUE	FALSE
+FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+
+
+
+4. incremental/decremental
+	
+	++  --
+
+
+int a=100;
+
+a++;
+syso(a);  101
+a--;
+syso(a);   100
+
+
+	post and pre increment/decrement
+
+
+++a;   //pre increment
+a++;   // post increment
+
+
+--a;   //pre decrement
+a--;   // post decrement
+
+99      a=100;
+100	++a;    //101
+101	//101
+
+
+
+
+
+5. assignment operator
+	= += -= /+ %= &= |= 
+
+	
+int a=100;
+
+a+=100;   //200
+
+//200
+
+a-=100;   //100
+
+a*=10;    //1000
+
+a/=10	  // 100
+
+a%=10	  //0
+
+
+Boolean bool=true;
+
+bool&=false; //false	
+
+
+
+
+
+
+6. shifter operator
+7. bitwise operators
+8. ternary operator  
+
+
+
+
+
+Assignment
+	1. Create a calculator
+		create variables in some other class
+		create logical methods in one class
+		call the logical methods and variables into one class and show the output 
+
+	2. Assignment operators with methods
+

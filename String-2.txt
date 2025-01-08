@@ -1,0 +1,140 @@
+
+
+Agenda
+	1. String examples
+	2. find duplicate characters
+	3. uppercase to lowercase
+	4. lowercase to uppercase
+	5. find character count (special number and alphabets)
+	6. find palindromes in the numbers from 100 - 10000
+	7. Theory of OOPS
+
+
+
+
+String str="mom and dad are going to meet madam";
+
+with program i wanted to find how many palindromes and what are they?
+
+String words[]=str.split(" ");
+
+
+for(String s:words)
+{
+
+reverseString(s);
+
+
+}
+
+
+
+String str="welcome to quality thought welcome students";
+String w[]=str.split(" ");
+for(String s:w)    //s="welcome";
+{
+char ch=s.charAt(0);
+int fIndex=s.indexOf(ch);
+int lIndex=s.lastIndexOf(ch);
+if(fIndex == lIndex)
+{
+syso(ch+ " is not duplicating in the word");
+}
+else
+{
+syso(ch+ " is duplicating in the word");
+}
+
+}
+
+
+
+String str="Hello";
+
+
+syso(str.toUpperCase());
+
+
+
+String str="Welcome to J@v@ 99 ";
+
+
+
+
+
+String str="hello hello";
+
+
+for(int i=0;i<str.length();i++)
+{
+char ch=str.charAt(i);
+
+for(int j=i+1;j<str.length;j++)
+{
+	if(ch==str.charAt(i))
+	{
+		syso(ch+ "is a duplicated character");	
+	}
+
+
+}
+
+}
+
+
+
+
+OOPS
+
+1. Class
+2. method
+3. object
+	state 
+	behaviour
+4. inheritance 
+
+	a. Single level
+	b. multi level
+	c. hierarchical
+	d. hybrid  
+
+Class A
+{
+10  m
+10  v
+
+}
+
+
+class B extends A
+{
+
+5 M
+5 v
+
+}
+
+class C {
+
+5 M
+5 v
+
+}
+
+
+
+5. Polymorphism
+6. Abstraction
+7. encapsulation
+
+
+
+
+
+
+
+
+
+
+
+ 

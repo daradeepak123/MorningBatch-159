@@ -1,0 +1,82 @@
+
+Agenda
+	1. Encapsulation
+	2. Collections
+
+
+
+Encapsulation
+	packing all the info class 
+
+Access modifiers
+child  
+old people
+girl
+boy
+
+final
+
+
+we can apply at 3 places 
+
+class  -> there cannot be any change
+method -> these method cannot be overridden
+variable-> value cannot be changed
+
+
+
+setter and getter methods
+
+public class ABC
+{
+private int a=100;
+
+public void hello()
+{
+syso(a);
+}
+
+}
+
+public class XYZ
+{
+ABC o=new ABC();
+o.hello();
+}
+
+
+
+
+Collections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
