@@ -1,0 +1,15 @@
+
+
+
+
+Agenda
+	1. Git
+	2. Jenkins
+
+
+
+
+Added code to remote repo
+
+
+
